@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font-inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+.header{
+    background-color: #FFFFFF;
+    color: black;
+}
+.nav{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap:32px;
+    margin: 34px auto;
+}
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.nav .logo img{
+    max-width: 139px;
+    margin: 16px auto;
+}
+
+.btn{
+    padding: 13px 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 24px auto;
+    background-color: #469165;
+    color: #FFFFFF;
+}
+
+#banner{
+    padding-top: 115px;
+    background-image: url("images/assets/hero-bg.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#banner .banner-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#banner .banner-container .Early-access{
+    width: 239px;
+    background-color: #FFFFFF;
+    color: #30B868;
+    padding: 8px 12px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    border: none;
+}
+#banner .banner-container .section-heading{
+    max-width: 770px;
+    margin: 0px auto;
+}
+
+.banner-container .section-heading h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.section-heading h1 span{
+    color: #30B868;
+}
+
+#banner .banner-container .section-heading p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.play-btn{
+    padding: 13px 16px;
+    border-radius: 5px;
+    border:1px solid white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 24px;
+    background-color: rgba(94, 6, 94, 0.151);
+    color: #FFFFFF;
+    gap:24px; 
+}
+
+.section-notes{
+  padding: 100px 0;
+  background-color: #F9FBFA;
+}
+
+.notes-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.notes-heading{
+  text-align: center;
+  margin: 0 auto 64px;
+}
+
+.notes-heading h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.notes-heading p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+}
+
+.notes-grid{
+  display:flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card{
+    max-width: 322px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: 0 -8px 24px rgba(0,0,0,0.06);
+}
+
+.icons{
+  width: 52px;
+  height: 52px;
+  background-color: #e75d5d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+
+.icons img{
+  width: 22px;
+  height: 22px;
+}
+
+.card h3{
+  font-size: 22px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 12px;
+}
+
+.card p{
+    width: 274px;  
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.brain-section{
+    margin-top: 100px;
+    background-color: #FFFFFF;
+}
+
+.brain-section .brain-container{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    gap:40px;
+}
+
+.brain-container .brain-img {
+    width: 600px;
+    
+}
+
+.brain-text-containt{
+    max-width: 700px;
+    margin: 102px 0px;
+
+}
+
+
+.solution-content h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+
+}
+
+.solution-content h3{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 16px 0px;
+}
+
+.solution-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.menu-content{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    margin-right: 36px;
+}
+.menu-content li{
+    margin-top: 16px;
+}
+
