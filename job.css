@@ -111,6 +111,10 @@
     gap:24px; 
 }
 
+.play-btn:hover{
+    background-color: rgb(28, 18, 90)
+}
+
 .section-notes{
   padding: 100px 0;
   background-color: #F9FBFA;
@@ -186,7 +190,7 @@
 }
 
 .brain-section{
-    margin-top: 100px;
+    margin: 100px 0px;
     background-color: #FFFFFF;
 }
 
@@ -245,3 +249,95 @@
     margin-top: 16px;
 }
 
+.ready-section{
+    background-color: #FFFFFF;
+    
+}
+.ready-section .ready-container{
+    max-width:100%;
+    margin: 0px 120px;
+    padding: 80px 40px;
+    border-radius:10px;
+    background-color: #F7F6F2;
+    text-align: center;
+    
+}
+
+.ready-container .section-heading{ 
+    max-width: 740px;
+    margin: 0px auto;
+}
+.section-heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.section-heading p{
+    font: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #627382;
+    margin: 0px 64px;
+}
+.ready-btm p{
+    font: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #627382;
+}
+.btn:hover{
+    background-color: darkgreen;
+}
+
+footer{
+    background-color: #001931;
+}
+
+footer .footer-nav{
+    max-width: 100%;
+    margin: 0px 120px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-nav .logo img{
+    max-width: 139px;
+}
+
+.footer-menu{
+    max-width: 220px;
+}
+.social h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer-icons i{
+    font-size: 20px;
+    gap:16px;
+    border-radius:20%;
+    margin-top: 16px ;
+    background-color: #F7F6F2;
+}
+
+.footer-btm{
+    text-align: center;
+}
+
+.footer-btm p{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.line{
+    max-width: 100%;
+    margin: 0px 120px;
+    padding-top: 20px;
+}
