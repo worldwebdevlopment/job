@@ -73,6 +73,9 @@
     margin-bottom: 24px;
     border: none;
 }
+.Early-access:hover{
+    background-color: darkgreen;
+}
 #banner .banner-container .section-heading{
     max-width: 770px;
     margin: 0px auto;
